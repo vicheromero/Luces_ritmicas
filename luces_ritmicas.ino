@@ -11,16 +11,16 @@
  * EL CORE DE ARDUINO USA UNA CONFIGURACION PREDETERMINADA
  * DE PRE-ESCALADORES EN LOS RELOJES INTERNOS
  */
-int leer_audio = A0;
-int salida1 = 2; 
-int salida2 = 3; 
-int salida3 = 5; 
-int salida4 = 6; 
-int salida5 = 7; 
-int salida6 = 8; 
-int salida7 = 9; 
-int salida8 = 10; 
-int tiempo_entre_muestreo = 10; //En milisegundos
+int leer_audio = A0; //Conversor de ingreso del audio
+int salida1 = 2; //Pin salida hacia el optoacoplador
+int salida2 = 3; //Pin salida hacia el optoacoplador
+int salida3 = 5; //Pin salida hacia el optoacoplador
+int salida4 = 6; //Pin salida hacia el optoacoplador
+int salida5 = 7; //Pin salida hacia el optoacoplador
+int salida6 = 8; //Pin salida hacia el optoacoplador
+int salida7 = 9; //Pin salida hacia el optoacoplador
+int salida8 = 10; //Pin salida hacia el optoacoplador
+int tiempo_entre_muestreo = 10; //Tiempo de separación entre cada muestreo de audio
 int analogo_audio_1023 = 0;
 int analogo_audio_255 = 0;
 
